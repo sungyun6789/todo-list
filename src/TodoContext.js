@@ -67,6 +67,8 @@ export const TodoProvider = ({ children }) => {
     /*
         Provider는 context를 구독하는 컴포넌트들에게 context의 변화를 알리는 역할을 한다.
         Provider는 value prop를 받아서 이 값을 하위에 있는 컴포넌트들에게 전달하는데 value가 바뀔 때 마다 렌더링 된다.
+        * Provider는 context를 생성할 때 사용하는 제공자 역할인데 TodoStateContext.Provider value={state}하면 
+        다른 컴포넌트에서 TodoStateContext를 호출했을 때 value값 안에 있는 state를 사용할 수 있는 것이다. * - 한줄요약: state를 다른 컴포넌트에서 쓰고싶으면 provider해서 값을 넘겨줘야 함
         children을 매개변수로 가져와 넣은 이유는 태그와 태그 사이에 내용을 보여주기 위해서인데
         저걸 받아오지 않는다면 이 컴포넌트에 있는 내용은 뜨지 않을 것이다.
     */
