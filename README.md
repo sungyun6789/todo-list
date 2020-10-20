@@ -1,3 +1,5 @@
+## Todo List를 만들면서 내가 해본것
+
 1. TodoList - React, React-Hooks, styled-component 사용
 
 2. styled-component를 활용해 component에는 js부분만 보일 수 있도록 해서 가독성을 올렸다.
